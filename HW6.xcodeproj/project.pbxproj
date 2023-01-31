@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0D056C2C2988F7D500599E86 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D056C2B2988F7D500599E86 /* main.swift */; };
+		0D056C342988F85E00599E86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D056C332988F85E00599E86 /* User.swift */; };
+		0D056C372988F8CE00599E86 /* PhoneCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D056C362988F8CE00599E86 /* PhoneCode.swift */; };
+		0D056C3A2988F95A00599E86 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D056C392988F95A00599E86 /* DataBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		0D056C282988F7D500599E86 /* HW6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW6; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D056C2B2988F7D500599E86 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0D056C332988F85E00599E86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0D056C362988F8CE00599E86 /* PhoneCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCode.swift; sourceTree = "<group>"; };
+		0D056C392988F95A00599E86 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0D056C2B2988F7D500599E86 /* main.swift */,
+				0D056C332988F85E00599E86 /* User.swift */,
+				0D056C362988F8CE00599E86 /* PhoneCode.swift */,
+				0D056C392988F95A00599E86 /* DataBase.swift */,
 			);
 			path = HW6;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D056C342988F85E00599E86 /* User.swift in Sources */,
 				0D056C2C2988F7D500599E86 /* main.swift in Sources */,
+				0D056C3A2988F95A00599E86 /* DataBase.swift in Sources */,
+				0D056C372988F8CE00599E86 /* PhoneCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
